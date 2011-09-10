@@ -38,4 +38,9 @@ gem 'capybara', '0.3.9'
 gem 'database_cleaner'
 gem 'cucumber-rails'
 gem 'launchy'
+
+group :production do
+    gem "pg"
+end
+
 end
